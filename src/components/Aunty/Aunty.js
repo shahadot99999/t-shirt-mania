@@ -1,9 +1,11 @@
 import React from 'react';
 import Cousin from '../Cousin/Cousin';
 
+// this is aunty components
 const Aunty = ({ house }) => {
     return (
         <div>
+
             <h4>Aunty</h4>
             <p><small>House:{house}</small></p>
             <section className='flex'>
